@@ -4,7 +4,8 @@
   "description": "Ts_practice",
   "main": "index.js",
   "scripts": {
-    "start": "tsc-watch \" node dist/index.js\""
+    "start": "node dist/index.js",
+    "prestart": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/ecar1234/TS_block_chain_practice#readme",
   "devDependencies": {
     "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
   }
 }
