@@ -1,0 +1,20 @@
+{
+  "name": "ts_block_chain_practice",
+  "version": "1.0.0",
+  "description": "Ts_practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecar1234/TS_block_chain_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecar1234/TS_block_chain_practice/issues"
+  },
+  "homepage": "https://github.com/ecar1234/TS_block_chain_practice#readme"
+}
